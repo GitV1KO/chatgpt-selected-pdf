@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT 问答 PDF",
+  "version": "0.1.2",
+  "description": "自选多条 ChatGPT 问题与回答，保留网页渲染外观，保存为图像 PDF。全部本地处理。",
+  "minimum_chrome_version": "114",
+  "permissions": ["activeTab", "scripting"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "选择 ChatGPT 问答并保存 PDF"},
+  "commands": {"_execute_action": {"suggested_key": {"default": "Alt+Shift+P", "mac": "Alt+Shift+P"}}},
+  "content_security_policy": {"extension_pages": "script-src 'self'; object-src 'none'; connect-src 'none'"}
+}
