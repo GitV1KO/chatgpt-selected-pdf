@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+output/
+tests/results/
+dist/*
+!dist/chatgpt-selected-pdf-0.1.2.zip

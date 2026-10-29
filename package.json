@@ -1,0 +1,9 @@
+{
+  "name": "chatgpt-selected-pdf",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Select ChatGPT messages and save their browser-rendered appearance as PDF.",
+  "scripts": {"check": "node scripts/check.mjs", "test": "node tests/browser.mjs", "package": "node scripts/package.mjs"},
+  "devDependencies": {"playwright": "^1.64.1"}
+}
